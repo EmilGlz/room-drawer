@@ -55,18 +55,15 @@ DrawRoomPart(new RoomPart[] { showerData }, "Floor", out _, _floorMaterial);
 ```
 
 
-### Example 1: Creating a Floor Using Walls 6, 7, 8, 9, and 10
+### Example 2: Creating a Floor Using Walls 0,9
 
-For a different floor layout, you can select a different set of walls, such as 6, 7, 8, 9, and 10:
+For a different floor layout, you can select a different set of walls, such as 0, 9
 
 ```csharp
 var showerData = GetFloorDataBetweenWalls(new RoomPart[]
 {
-    room.walls[6],
-    room.walls[7],
-    room.walls[8],
-    room.walls[9],
-    room.walls[10],
+    room.walls[0],
+    room.walls[9]
 });
 DrawRoomPart(new RoomPart[] { showerData }, "Floor", out _, _floorMaterial);
 ```
