@@ -53,6 +53,7 @@ var showerData = GetFloorDataBetweenWalls(new RoomPart[]
 });
 DrawRoomPart(new RoomPart[] { showerData }, "Floor", out _, _floorMaterial);
 ```
+<img width="308" alt="Screenshot 2024-10-31 153705" src="https://github.com/user-attachments/assets/fabf6508-1cee-4286-ba03-ea596c394213">
 
 
 ### Example 2: Creating a Floor Using Walls 0,9
@@ -67,6 +68,7 @@ var showerData = GetFloorDataBetweenWalls(new RoomPart[]
 });
 DrawRoomPart(new RoomPart[] { showerData }, "Floor", out _, _floorMaterial);
 ```
+<img width="286" alt="Screenshot 2024-10-31 153835" src="https://github.com/user-attachments/assets/924a64b1-f9a3-4bfa-ac21-566fe9632a54">
 
 
 ## How It Works
