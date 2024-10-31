@@ -36,6 +36,8 @@ RoomDrawer is a Unity project designed to generate 3D rooms by defining wall pos
 
 ## Example Usage
 
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/52250f63-2e84-4fc4-bcea-62a8735b67b0">
+
 With RoomDrawer, you can specify wall numbers to generate floors within a specific area. Below are two examples:
 
 ### Example 1: Creating a Floor Using Walls 1, 2, 3, 4, and 5
